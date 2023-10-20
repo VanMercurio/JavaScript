@@ -1,0 +1,38 @@
+JAVA SCRIPT
+
+aula 002
+
+alert () > configura janela de alerta 
+confirm() > configura janela de ok ou cancela
+prompt() > configura janela de interação com o usuário, tipo, qual seu nome
+typeof >> me mostra qual o tipo de variavel estou usando, exemplo se é number ou string
+toFixed(2) > mostra duas casas após o ponto ( ex: 1535,2 fica 1535,20 )
+
+---------------------------------------------------------------------------------------------------
+>n1 = 1545.5
+>n1.toFixed(2)
+1545.50
+>n1.toFixed(2).replace('.',',') // troca o ponto por virgula
+1545,50
+>n1.toLocaleString('pt-BR' , {style:'currecy', currency:'BRL'}) // transforma o valor em real
+R$ 1545,50
+>n1.toLocaleString('pt-BR' , {style:'currecy', currency:'USD'}) // transforma o valor em dólar
+//variavel.localiza a string 
+
+
+VARIAVEIS
+*Podemos usar var ou let 
+*não começar com numero
+*podemos usar letra e numeros, pode usar acentuação
+*não podem conter espaçõs
+*maiusculas e minusculas  fazem diferença na variavel
+
+=  recebe
+Para abrir o node JS no VS usar editar > terminal ou ctrl + shift +'
+
+number >> podemos usar inteiros ou floa
+string >> podemos usar letras e numeros
+boolean >> true or false
+
+
+
